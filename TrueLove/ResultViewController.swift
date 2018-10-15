@@ -36,6 +36,8 @@ class ResultViewController: UIViewController {
     var contadorV = 0
     var arrayTrue = [String]()
     var arrayLove = [String]()
+    var loveResult = String()
+    var trueResult = String()
     
     //MARK: Viewlife Cycle
     override func viewDidLoad() {
@@ -93,20 +95,95 @@ class ResultViewController: UIViewController {
                     let textoV = self.vLabel.text
                     arrayLove.append(textoV!)
                 default :
-                   print(arrayTrue)
+                    print(arrayTrue)
                     break
                 }
             }
             
-//            if arrayLove.count > 9 {
-//                //self.arrayTrue
-//            }
+            if arrayLove.count > 9 {
+                for love in arrayLove{
+                    switch love {
+                    case "1":
+                        loveResult = "0"
+                        arrayTrue.append("appending")
+                        trueResult = "\(arrayTrue.count)"
+                        print("caiu no case 1")
+                    case "2":
+                        loveResult = "0"
+                        let oneTwo = 1...2
+                        for appending in oneTwo {
+                            arrayTrue.append("appending")
+                            print("caiu no case 2")
+                        }
+                        trueResult = "\(arrayTrue.count)"
+                    case "3":
+                        loveResult = "0"
+                        let oneThree = 1...3
+                        for appending in oneThree {
+                            arrayTrue.append("appending")
+                            print("caiu no case 3")
+                        }
+                        trueResult = "\(arrayTrue.count)"
+                    case "4":
+                        loveResult = "0"
+                        let oneFour = 1...4
+                        for appending in oneFour {
+                            arrayTrue.append("appending")
+                            print("caiu no case 4")
+                        }
+                        trueResult = "\(arrayTrue.count)"
+                    case "5":
+                        loveResult = "0"
+                        let oneFive = 1...5
+                        for appending in oneFive {
+                            arrayTrue.append("appending")
+                            print("caiu no case 5")
+                        }
+                        trueResult = "\(arrayTrue.count)"
+                    case "6":
+                        loveResult = "0"
+                        let oneSix = 1...6
+                        for appending in oneSix {
+                            arrayTrue.append("appending")
+                            print("caiu no case 6")
+                        }
+                        trueResult = "\(arrayTrue.count)"
+                    case "7":
+                        loveResult = "0"
+                        let oneSeven = 1...7
+                        for appending in oneSeven {
+                            arrayTrue.append("appending")
+                            print("caiu no case 7")
+                        }
+                        trueResult = "\(arrayTrue.count)"
+                    case "8":
+                        loveResult = "0"
+                        let oneEight = 1...8
+                        for appending in oneEight {
+                            arrayTrue.append("appending")
+                            print("caiu no case 8")
+                        }
+                        trueResult = "\(arrayTrue.count)"
+                    case "9":
+                        loveResult = "0"
+                        let oneNine = 1...9
+                        for appending in oneNine {
+                            arrayTrue.append("appending")
+                            print("caiu no case 9")
+                        }
+                        trueResult = "\(arrayTrue.count)"
+                    default:
+                        break
+                        
+                    }
+                }
+            }
             
-            self.labelPercentageResult.text = "\(arrayTrue.count) \(arrayLove.count)"
-           
+            self.labelPercentageResult.text = trueResult  + "%"
             
             
-          
+            
+            
             
         }
     }
