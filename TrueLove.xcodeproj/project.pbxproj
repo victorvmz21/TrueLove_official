@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		575E21EE214CAD7600EA05F9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E21ED214CAD7600EA05F9 /* ResultViewController.swift */; };
+		57B0A1F121448FFC00C979EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B0A1F021448FFC00C979EC /* AppDelegate.swift */; };
+		57B0A1F321448FFC00C979EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B0A1F221448FFC00C979EC /* ViewController.swift */; };
+		57B0A1F621448FFC00C979EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B0A1F421448FFC00C979EC /* Main.storyboard */; };
+		57B0A1F821448FFE00C979EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B0A1F721448FFE00C979EC /* Assets.xcassets */; };
+		57B0A1FB21448FFE00C979EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B0A1F921448FFE00C979EC /* LaunchScreen.storyboard */; };
+		57B0A20F2144914E00C979EC /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B0A2032144914E00C979EC /* YoshikoTextField.swift */; };
+		57B0A2102144914E00C979EC /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B0A2052144914E00C979EC /* HoshiTextField.swift */; };
+		57B0A2112144914E00C979EC /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B0A2062144914E00C979EC /* MinoruTextField.swift */; };
+		57B0A2122144914E00C979EC /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B0A2072144914E00C979EC /* YokoTextField.swift */; };
+		57B0A2132144914E00C979EC /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B0A2082144914E00C979EC /* TextFieldEffects.swift */; };
+		57B0A2142144914E00C979EC /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B0A2092144914E00C979EC /* JiroTextField.swift */; };
+		57B0A2152144914E00C979EC /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B0A20A2144914E00C979EC /* MadokaTextField.swift */; };
+		57B0A2162144914E00C979EC /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B0A20B2144914E00C979EC /* KaedeTextField.swift */; };
+		57B0A2172144914E00C979EC /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B0A20C2144914E00C979EC /* AkiraTextField.swift */; };
+		57B0A2182144914E00C979EC /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B0A20D2144914E00C979EC /* IsaoTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		575E21ED214CAD7600EA05F9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		57B0A1ED21448FFC00C979EC /* TrueLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B0A1F021448FFC00C979EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57B0A1F221448FFC00C979EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57B0A1F521448FFC00C979EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57B0A1F721448FFE00C979EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57B0A1FA21448FFE00C979EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57B0A1FC21448FFE00C979EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B0A2032144914E00C979EC /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
+		57B0A2042144914E00C979EC /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
+		57B0A2052144914E00C979EC /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		57B0A2062144914E00C979EC /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinoruTextField.swift; sourceTree = "<group>"; };
+		57B0A2072144914E00C979EC /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
+		57B0A2082144914E00C979EC /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		57B0A2092144914E00C979EC /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiroTextField.swift; sourceTree = "<group>"; };
+		57B0A20A2144914E00C979EC /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadokaTextField.swift; sourceTree = "<group>"; };
+		57B0A20B2144914E00C979EC /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
+		57B0A20C2144914E00C979EC /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
+		57B0A20D2144914E00C979EC /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsaoTextField.swift; sourceTree = "<group>"; };
+		57B0A20E2144914E00C979EC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B0A1EA21448FFC00C979EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B0A1E421448FFC00C979EC = {
+			isa = PBXGroup;
+			children = (
+				57B0A1EF21448FFC00C979EC /* TrueLove */,
+				57B0A1EE21448FFC00C979EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57B0A1EE21448FFC00C979EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57B0A1ED21448FFC00C979EC /* TrueLove.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57B0A1EF21448FFC00C979EC /* TrueLove */ = {
+			isa = PBXGroup;
+			children = (
+				57B0A1F021448FFC00C979EC /* AppDelegate.swift */,
+				57B0A1F221448FFC00C979EC /* ViewController.swift */,
+				57B0A1F421448FFC00C979EC /* Main.storyboard */,
+				575E21ED214CAD7600EA05F9 /* ResultViewController.swift */,
+				57B0A1F721448FFE00C979EC /* Assets.xcassets */,
+				57B0A1F921448FFE00C979EC /* LaunchScreen.storyboard */,
+				57B0A1FC21448FFE00C979EC /* Info.plist */,
+				57B0A2022144914E00C979EC /* TextFieldEffects */,
+			);
+			path = TrueLove;
+			sourceTree = "<group>";
+		};
+		57B0A2022144914E00C979EC /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				57B0A2032144914E00C979EC /* YoshikoTextField.swift */,
+				57B0A2042144914E00C979EC /* TextFieldEffects.h */,
+				57B0A2052144914E00C979EC /* HoshiTextField.swift */,
+				57B0A2062144914E00C979EC /* MinoruTextField.swift */,
+				57B0A2072144914E00C979EC /* YokoTextField.swift */,
+				57B0A2082144914E00C979EC /* TextFieldEffects.swift */,
+				57B0A2092144914E00C979EC /* JiroTextField.swift */,
+				57B0A20A2144914E00C979EC /* MadokaTextField.swift */,
+				57B0A20B2144914E00C979EC /* KaedeTextField.swift */,
+				57B0A20C2144914E00C979EC /* AkiraTextField.swift */,
+				57B0A20D2144914E00C979EC /* IsaoTextField.swift */,
+				57B0A20E2144914E00C979EC /* Info.plist */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57B0A1EC21448FFC00C979EC /* TrueLove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B0A1FF21448FFE00C979EC /* Build configuration list for PBXNativeTarget "TrueLove" */;
+			buildPhases = (
+				57B0A1E921448FFC00C979EC /* Sources */,
+				57B0A1EA21448FFC00C979EC /* Frameworks */,
+				57B0A1EB21448FFC00C979EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrueLove;
+			productName = TrueLove;
+			productReference = 57B0A1ED21448FFC00C979EC /* TrueLove.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57B0A1E521448FFC00C979EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Atomuz Development";
+				TargetAttributes = {
+					57B0A1EC21448FFC00C979EC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 57B0A1E821448FFC00C979EC /* Build configuration list for PBXProject "TrueLove" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57B0A1E421448FFC00C979EC;
+			productRefGroup = 57B0A1EE21448FFC00C979EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57B0A1EC21448FFC00C979EC /* TrueLove */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B0A1EB21448FFC00C979EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B0A1FB21448FFE00C979EC /* LaunchScreen.storyboard in Resources */,
+				57B0A1F821448FFE00C979EC /* Assets.xcassets in Resources */,
+				57B0A1F621448FFC00C979EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B0A1E921448FFC00C979EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575E21EE214CAD7600EA05F9 /* ResultViewController.swift in Sources */,
+				57B0A2132144914E00C979EC /* TextFieldEffects.swift in Sources */,
+				57B0A1F321448FFC00C979EC /* ViewController.swift in Sources */,
+				57B0A20F2144914E00C979EC /* YoshikoTextField.swift in Sources */,
+				57B0A2182144914E00C979EC /* IsaoTextField.swift in Sources */,
+				57B0A2152144914E00C979EC /* MadokaTextField.swift in Sources */,
+				57B0A2142144914E00C979EC /* JiroTextField.swift in Sources */,
+				57B0A2112144914E00C979EC /* MinoruTextField.swift in Sources */,
+				57B0A2162144914E00C979EC /* KaedeTextField.swift in Sources */,
+				57B0A1F121448FFC00C979EC /* AppDelegate.swift in Sources */,
+				57B0A2102144914E00C979EC /* HoshiTextField.swift in Sources */,
+				57B0A2122144914E00C979EC /* YokoTextField.swift in Sources */,
+				57B0A2172144914E00C979EC /* AkiraTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57B0A1F421448FFC00C979EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B0A1F521448FFC00C979EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57B0A1F921448FFE00C979EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B0A1FA21448FFE00C979EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57B0A1FD21448FFE00C979EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57B0A1FE21448FFE00C979EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57B0A20021448FFE00C979EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XGA75NZTS;
+				INFOPLIST_FILE = TrueLove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = development.atomuz.TrueLove;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		57B0A20121448FFE00C979EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XGA75NZTS;
+				INFOPLIST_FILE = TrueLove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = development.atomuz.TrueLove;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57B0A1E821448FFC00C979EC /* Build configuration list for PBXProject "TrueLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B0A1FD21448FFE00C979EC /* Debug */,
+				57B0A1FE21448FFE00C979EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B0A1FF21448FFE00C979EC /* Build configuration list for PBXNativeTarget "TrueLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B0A20021448FFE00C979EC /* Debug */,
+				57B0A20121448FFE00C979EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57B0A1E521448FFC00C979EC /* Project object */;
+}
